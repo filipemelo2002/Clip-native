@@ -3,4 +3,10 @@
     <string name="create_group">Criar Grupo</string>
     <string name="description">Descrição</string>
     <string name="group_description">Descrição do grupo</string>
+    <string name="type">Tipo</string>
+    <string name="electricity">Energia</string>
+    <string name="water">Água</string>
+    <string name="internet">Internet</string>
+    <string name="phone">Telefone</string>
+    <string name="other_bills">Outros pagamentos</string>
 </resources>

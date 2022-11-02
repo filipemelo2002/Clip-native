@@ -28,4 +28,17 @@
         android:layout_height="wrap_content"
         android:hint="@string/group_description"
     />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type"
+        android:textColor="@color/black_dark"
+        android:layout_marginTop="16dp"
+        />
+    <Spinner
+        android:id="@+id/type_spinner"
+        android:layout_width="match_parent"
+        android:minHeight="40dp"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_height="wrap_content" />
 </LinearLayout>
