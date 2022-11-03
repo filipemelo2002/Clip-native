@@ -9,4 +9,6 @@
     <string name="internet">Internet</string>
     <string name="phone">Telefone</string>
     <string name="other_bills">Outros pagamentos</string>
+    <string name="create">Criar</string>
+    <string name="back">Voltar</string>
 </resources>
