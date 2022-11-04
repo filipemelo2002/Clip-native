@@ -26,7 +26,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         typeSpinner = findViewById(R.id.type_spinner);
-        ArrayAdapter<CharSequence> typeSpinnerAdapter = ArrayAdapter.createFromResource(this, R.array.types_array, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> typeSpinnerAdapter =
+                    ArrayAdapter.createFromResource(this, R.array.types_array,
+                            android.R.layout.simple_spinner_item);
         typeSpinner.setAdapter(typeSpinnerAdapter);
 
         descriptionField = findViewById(R.id.group_description);
